@@ -1,16 +1,59 @@
 <style>
-  .text {
-    font-size: 30px;
-    color: #333;
+  /* since moost of the styles are repeating, we will  a common code
+  to go over all the code.
+
+  p is the selector for the paragraph tag and the style set will affect all the 
+  paragraphs created.
+  */
+
+  p{
     font-family: Arial;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .text {
+    font-size: 18px;
     font-weight: bold;
-    text-align: center;
-    width: 600px;
-    margin: 20px;
+    width: 300px;
+    line-height: 24px;
+    margin-bottom: 5;
+  }
+
+  .text-stats {
+      font-size: 14px;
+      color: rgb(96, 96, 96);
+      margin-top: 5;
+    }
+
+  .text-author {
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+    margin-bottom: 20px;
+  }
+
+  .description {
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+    width: 300px;
+    line-height: 20px;
   }
 
 </style>
 <p class="text">
-  I am becoming a geospatial engineer. I am learning how to use GIS software to 
-  analyze spatial data !
+  Talking Tech and AI with Google CEO Sundar Pichai
+</p>
+
+<p class="text-stats">
+  3.4M views &#183; 2 months ago
+</p>
+
+<p class="text-author">
+  Marques Brownlee &#10003;
+</p>
+
+<p class="description">
+  Talking Tech and AI on the heels of Google I/O 2021 with Google CEO Sundar Pichai.
+   We discuss the latest in AI, the future of work, and the 
+   importance of privacy and security in tech.
 </p>
